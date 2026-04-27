@@ -142,30 +142,6 @@ All query results are saved as `.txt` files in the root directory.
 - Internet Service
 - Churn (Yes / No)
 
-### DAX Measures
-```dax
-ChurnRate% = 
-  DIVIDE(
-    CALCULATE(COUNTROWS(telco_enriched), telco_enriched[Churn] = "Yes"),
-    COUNTROWS(telco_enriched)
-  ) * 100
-
-RevenueAtRisk = 
-  CALCULATE(
-    SUM(telco_enriched[MonthlyCharges]),
-    telco_enriched[Churn] = "Yes"
-  )
-
-TenureYearGroup = 
-  SWITCH(TRUE(),
-    telco_enriched[tenure] <= 12, "Year 1 (0–12 Months)",
-    telco_enriched[tenure] <= 24, "Year 2 (13–24 Months)",
-    telco_enriched[tenure] <= 36, "Year 3 (25–36 Months)",
-    telco_enriched[tenure] <= 48, "Year 4 (37–48 Months)",
-    telco_enriched[tenure] <= 60, "Year 5 (49–60 Months)",
-    "Year 6+ (61–72 Months)"
-  )
-```
 
 ---
 
@@ -204,15 +180,12 @@ jupyter notebook notebook/churn_analysis.ipynb
 
 ## 👤 Author
 
-**Arshad H**  
-B.Com (Business Analytics) — St. Joseph's College, Trichy  
+**Arshad HR**  
 Aspiring Data Analyst | Python • SQL • Power BI  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/YOUR_LINKEDIN)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-black?logo=github)](https://github.com/arshadhrs)
+[![LinkedIn](https://www.linkedin.com/in/arshadhrs/)
+[![GitHub](https://github.com/arshadhrs/Telco_Customer_Churn_Analysis)
 
 ---
 
-## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).

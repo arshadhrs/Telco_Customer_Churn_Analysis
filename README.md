@@ -183,8 +183,8 @@ jupyter notebook notebook/churn_analysis.ipynb
 **Arshad HR**  
 Aspiring Data Analyst | Python • SQL • Power BI  
 
-[![LinkedIn](https://www.linkedin.com/in/arshadhrs/)
-[![GitHub](https://github.com/arshadhrs/Telco_Customer_Churn_Analysis)
+[LinkedIn](https://www.linkedin.com/in/arshadhrs/)
+[GitHub](https://github.com/arshadhrs/Telco_Customer_Churn_Analysis)
 
 ---
 

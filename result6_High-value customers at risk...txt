@@ -1,0 +1,21 @@
+customerID,MonthlyCharges,tenure,Contract,InternetService
+8199-ZLLSA,118.35,67,One year,Fiber optic
+2889-FPWRM,117.8,72,One year,Fiber optic
+2302-ANTDP,117.45,48,Month-to-month,Fiber optic
+9053-JZFKV,116.2,67,Two year,Fiber optic
+1444-VVSGW,115.65,70,One year,Fiber optic
+0201-OAMXR,115.55,70,One year,Fiber optic
+4361-BKAXE,114.5,41,Month-to-month,Fiber optic
+1555-DJEQW,114.2,70,Two year,Fiber optic
+9158-VCTQB,113.6,41,Month-to-month,Fiber optic
+7279-BUYWN,113.2,41,Month-to-month,Fiber optic
+5271-YNWVR,113.15,68,Two year,Fiber optic
+1583-IHQZE,112.95,12,Month-to-month,Fiber optic
+5236-PERKL,112.95,57,Two year,Fiber optic
+2403-BCASL,111.95,41,One year,Fiber optic
+6664-FPDAC,111.95,56,One year,Fiber optic
+3090-HAWSU,111.6,61,Two year,Fiber optic
+2659-VXMWZ,111.3,67,One year,Fiber optic
+9249-FXSCK,111.25,52,One year,Fiber optic
+0115-TFERT,111.2,21,Month-to-month,Fiber optic
+9079-YEXQJ,111.1,54,Month-to-month,Fiber optic

@@ -1,0 +1,6 @@
+tenure_group,total,churned,churn_rate_pct
+New (0-1yr),2175,1037,47.68
+Growing (1-2yr),1024,294,28.71
+Established (2-4yr),1594,325,20.39
+Loyal (4+yr),2239,213,9.51
+New (0-1yr),11,0,0.0
